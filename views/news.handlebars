@@ -1,0 +1,9 @@
+{{#each News}}
+	<div class="panel panel-primary">
+ 	 <div class="panel-body" id="newstitle">
+    	{{this.title}}
+    	<button type="button" class="btn btn-success align-right" id="comment" data-id="{{this.id}}">Leave Comment</button>
+  	</div>
+  	<div class="panel-footer" id="newslink">{{this.link}}</div>
+	</div>
+{{/each}}

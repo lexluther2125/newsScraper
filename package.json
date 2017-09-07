@@ -1,0 +1,29 @@
+{
+  "name": "news-scraper",
+  "version": "1.0.0",
+  "description": "This will be a web app that lets users leave comments on the latest news by incorporating Mongoose and Cheerio to scrape the news from another website.",
+  "main": "server.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lexluther2125/newsScraper.git"
+  },
+  "author": "Lexi Majoue",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lexluther2125/newsScraper/issues"
+  },
+  "homepage": "https://github.com/lexluther2125/newsScraper#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.15.4",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^4.11.10",
+    "morgan": "^1.8.2",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1"
+  }
+}
